@@ -12,4 +12,4 @@ Garima Chhikara </br>
 Rishab Kapoor
 
 ### TA :
-Sachin
+Sachin Singla
