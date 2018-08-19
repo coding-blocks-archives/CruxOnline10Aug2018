@@ -10,3 +10,6 @@ All doubts will be discussed on slack channel.
 ### Mentors :
 Garima Chhikara </br>
 Rishab Kapoor
+
+### TA :
+Sachin
