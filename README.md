@@ -1,5 +1,5 @@
-# CruxOnline10August2018
-Codes for Crux Online 10August2018 Batch 
+# CruxOnline10Aug2018
+Codes for Crux Online 10Aug2018 Batch 
 
 ### Assignment Submission (Hacker Blocks) :
 Students need to submit the assignments on Hacker Blocks.
