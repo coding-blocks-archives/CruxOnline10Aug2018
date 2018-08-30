@@ -17,13 +17,13 @@ public class GraphClient {
 		graph.addVertex("F");
 		graph.addVertex("G");
 		graph.addEdge("A", "B", 2);
-		graph.addEdge("A", "D", 3);
-		graph.addEdge("B", "C", 1);
-		graph.addEdge("C", "D", 8);
-		graph.addEdge("D", "E", 10);
-		graph.addEdge("E", "F", 45);
-		graph.addEdge("E", "G", 7);
-		graph.addEdge("F", "G", 18);
+		graph.addEdge("A", "D", 10);
+		graph.addEdge("B", "C", 3);
+		graph.addEdge("C", "D", 1);
+		graph.addEdge("D", "E", 8);
+		graph.addEdge("E", "F", 5);
+		graph.addEdge("E", "G", 6);
+		graph.addEdge("F", "G", 4);
 
 		graph.display();
 		// System.out.println(graph.numVetex());
@@ -32,7 +32,7 @@ public class GraphClient {
 		// System.out.println(graph.containsEdge("A", "C"));
 		// System.out.println(graph.containsEdge("E", "F"));
 
-		graph.removeEdge("D", "E");
+		// graph.removeEdge("D", "E");
 		// graph.display();
 		//
 		// graph.removeVertex("F");
@@ -56,8 +56,12 @@ public class GraphClient {
 		// System.out.println(graph.isConnected());
 		// System.out.println(graph.isTree());
 
-		graph.addVertex("H");
-		System.out.println(graph.getCC());
+		// graph.addVertex("H");
+		// System.out.println(graph.getCC());
+
+		graph.prims().display();
+
+		System.out.println(graph.dijkstra("A"));
 
 	}
 
